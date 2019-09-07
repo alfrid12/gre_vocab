@@ -5,7 +5,7 @@ import random
 print('\033[H\033[J')
 
 #Import JSON file into json_file variable
-with open('unknown_words.json') as json_file:
+with open('alex_unknown_words.json') as json_file:
     data = json.load(json_file)
     vocabWords = data['vocabWords']
 
